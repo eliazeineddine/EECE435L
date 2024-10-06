@@ -1,0 +1,32 @@
+{
+  "students": [
+    {
+      "name": "Alice",
+      "age": 20,
+      "email": "alice@example.com",
+      "student_id": "S001",
+      "registered_courses": [
+        "C001"
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Smith",
+      "age": 45,
+      "email": "smith@example.com",
+      "instructor_id": "I001",
+      "assigned_courses": []
+    }
+  ],
+  "courses": [
+    {
+      "course_id": "C001",
+      "course_name": "Introduction to Python",
+      "instructor_id": "I001",
+      "enrolled_students": [
+        "S001"
+      ]
+    }
+  ]
+}
